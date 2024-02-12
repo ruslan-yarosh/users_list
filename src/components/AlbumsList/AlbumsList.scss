@@ -1,0 +1,10 @@
+.album {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  &__item {
+    flex-basis: 35%;
+  }
+}
